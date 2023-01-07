@@ -61,6 +61,7 @@ main {
 .my-summary {
   line-height: 26px;
   margin-bottom: 16px;
+  width: 420px;
 }
 .my-description {
   list-style: none;
