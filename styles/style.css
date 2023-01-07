@@ -45,7 +45,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 130px 0;
+  margin: 130px 0 160px;
 }
 .my-title {
   font-weight: 700;
@@ -72,11 +72,14 @@ main {
   margin-bottom: 8px;
 }
 #my-achievements {
+  margin: 130px 0;
   background-color: aliceblue;
+  padding-top: 90px;
 }
 /* tweaking the unordered list  */
 .my-list {
   padding: 0;
+  margin-bottom: 64px;
 }
 /* my plan section  */
 .plans-container {
