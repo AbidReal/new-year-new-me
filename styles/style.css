@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  font-family: "Work Sans", "Open Sans", "sans-serif";
+}
+
+.header {
+  color: #ffffff;
+  background-image: url(../images/banner/banner3.png);
+  background-size: 100% 100%; /* without this background image was getting cropped  */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  padding: 215px 230px 0;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 25px;
+  width: 500px;
+}
+.banner-sub-title {
+  margin-bottom: 30px;
+  width: 500px;
+  line-height: 26px;
+}
+
+.btn-contact {
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  background-color: #ffffff;
+  margin-bottom: 165px;
+  padding: 20px 25px;
+  border-radius: 5px;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* failure section  */
+.my-past {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 130px 0;
+}
+.my-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 64px 0 24px;
+}
+.past {
+  margin-left: 64px;
+}
+.my-summary {
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.my-description {
+  list-style: none;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+#my-achievements {
+  background-color: aliceblue;
+}
+/* tweaking the unordered list  */
+.my-list {
+  padding: 0;
+  margin-bottom: 130px;
+}
+/* my plan section  */
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+}
+.plans-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 130px 0 50px;
+}
+.plan {
+  text-align: center;
+}
+.plan-img {
+  margin-bottom: 24px;
+}
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+.plan-description {
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 135px;
+}
+/* call section  */
+.call-section {
+  background-image: url(../images/gradient1.png), url(../images/watch.png);
+  background-repeat: no-repeat;
+}
+.call-quote {
+  color: #ffffff;
+  width: 460px;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 60px 64px 24px;
+}
+.btn-call {
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  border-style: none;
+  padding: 20px 36px;
+  margin: 0 64px 60px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+/* footer  */
+footer {
+  margin-top: 130px;
+  background-color: #151414;
+}
+.footer {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 0;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 330px;
+}
+.end-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+.end-subtitle {
+  line-height: 26px;
+  margin-bottom: 24px;
+  width: 485px;
+}
+.my-phone {
+  margin: 16px 0 32px;
+}
+.end-text a {
+  margin-right: 8px;
+}
+.subscribe {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.your-email {
+  color: #f3f3f3;
+  /* changed the typing color to white  */
+  background: none;
+  border: 1px solid #f3f3f3;
+  border-radius: 8px;
+  padding: 21px 160px 21px 21px;
+}
+::placeholder {
+  font-size: 18px;
+  color: #f3f3f3;
+}
+.btn-sub {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 36px;
+  background-color: #005fac;
+  margin-top: 16px;
+  border-radius: 8px;
+}
