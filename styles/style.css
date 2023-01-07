@@ -55,6 +55,9 @@ main {
 #my-failure-title {
   width: 288px;
 }
+#my-achiv-title {
+  margin-top: 60px;
+}
 .past {
   margin-left: 64px;
 }
