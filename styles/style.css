@@ -52,6 +52,9 @@ main {
   font-size: 40px;
   margin: 64px 0 24px;
 }
+#my-failure-title {
+  width: 288px;
+}
 .past {
   margin-left: 64px;
 }
