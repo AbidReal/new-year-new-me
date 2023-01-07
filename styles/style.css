@@ -178,6 +178,7 @@ footer {
   color: #f3f3f3;
 }
 .btn-sub {
+  border: 0;
   color: #ffffff;
   font-size: 20px;
   padding: 20px 36px;
